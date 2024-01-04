@@ -112,13 +112,12 @@ do{
 }while(b <= 1)
 
 
+// Ganti dengan angka yang ingin Anda hitung pertambahannya
+let numbr = 6; 
+let sum = 0;
 
-// let numbr = 6; // Ganti dengan angka yang ingin Anda hitung pertambahannya
-// let sum = 0;
-
-// for (let i = 1; i <= numbr; i++) { 
-//     sum += i;
-// }
-
-// document.write(`<p>Hasil pertambahan dari 1 hingga ${numbr} adalah: ${sum}</p>`);
+for (let i = 1; i <= numbr; i++) { 
+    sum += i;
+}
+document.write(`<p>Hasil pertambahan dari 1 hingga ${numbr} adalah: ${sum}</p>`);
 
