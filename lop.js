@@ -89,7 +89,7 @@ for(i = 100; i >= 1; i--){
   
 //factorial yang for while dan do while
 
-let number = 6; // Ganti dengan angka yang ingin Anda hitung faktorialnya
+let number = 6; 
 let factorial = 1;
 
 for (let a = 1; a <= number; a++) {
