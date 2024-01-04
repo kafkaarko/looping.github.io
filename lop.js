@@ -85,3 +85,40 @@ for(i = 100; i >= 1; i--){
     }
 
 }
+
+  
+//factorial yang for while dan do while
+
+let number = 6; // Ganti dengan angka yang ingin Anda hitung faktorialnya
+let factorial = 1;
+
+for (let a = 1; a <= number; a++) {
+    factorial *= a;
+}
+
+console.log(`Faktorial dari ${number} adalah: ${factorial}`);   
+
+let b = 1
+while(b <= 1){
+    document.write(`<p>Hasil pertambahan dari 1 hingga adalah: ${factorial}</p>`);
+    factorial *= b;
+    b++
+}
+
+do{
+    b++
+    document.write(`<p>Hasil pertambahan dari 1 hingga adalah: ${factorial}</p>`);
+    factorial *= b;
+}while(b <= 1)
+
+
+
+// let numbr = 6; // Ganti dengan angka yang ingin Anda hitung pertambahannya
+// let sum = 0;
+
+// for (let i = 1; i <= numbr; i++) { 
+//     sum += i;
+// }
+
+// document.write(`<p>Hasil pertambahan dari 1 hingga ${numbr} adalah: ${sum}</p>`);
+
