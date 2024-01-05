@@ -100,14 +100,14 @@ console.log(`Faktorial dari ${number} adalah: ${factorial}`);
 
 let b = 1
 while(b <= 1){
-    document.write(`<p>Hasil pertambahan dari 1 hingga adalah: ${factorial}</p>`);
+    document.write(`<p>Hasil  dari ${number} hingga adalah: ${factorial}</p>`);
     factorial *= b;
     b++
 }
 
 do{
     b++
-    document.write(`<p>Hasil pertambahan dari 1 hingga adalah: ${factorial}</p>`);
+    document.write(`<p>Hasil dari ${number} hingga adalah: ${factorial}</p>`);
     factorial *= b;
 }while(b <= 1)
 
